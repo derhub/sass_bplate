@@ -13,14 +13,14 @@ var gulp         = require('gulp'),
     csswring     = require('csswring'),
     autoprefixer = require('autoprefixer'),
     minifycss    = require('gulp-minify-css'),
-    postcss      = require('gulp-postcss'),
-		notify			 = require('gulp-notify');
+    postcss      = require('gulp-postcss');
 
 var EXPRESS_PORT = 4000;
 var DIR = 'template';
 
 var files = {
-		html: DIR + '**/*.html'
+		html: DIR + '**/*.html',
+		sass: './sass'
 };
 
 var filesInput = {
@@ -71,9 +71,9 @@ gulp.task('styles', function() {
 
 		//compass
 		.pipe(compass({
-      // config: './config.rb',
-			css: filesOutput.css,
-			sass: filesOutput.sass
+      config: './config.rb',
+			sass: files.sass,
+			css: filesOutput.css
     }))
 
 		//compile
