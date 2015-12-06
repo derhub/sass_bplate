@@ -1,0 +1,17 @@
+# Ignore node modules
+node_modules
+
+# Ignore sass
+.sass-cache
+
+# Ignore node log
+npm-debug.log
+
+# ignore js vendors
+js/vendor/*/*
+
+# ignore map source
+**/*.map
+
+# ignore pre compilde data
+compile

@@ -1,0 +1,10 @@
+{
+  "name": "sass_bplate",
+  "description": "Sass boiler template",
+  "authors": [
+    "Johnder Baul <johndersite@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
