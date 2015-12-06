@@ -23,7 +23,7 @@ Installation
 	$ gulp
 ```
 
-#### 5. Visit your localhost and start creating your template
+#### 5. Visit your localhost and start creating your template !
 ```text
 	http://localhost:4000
 ```
